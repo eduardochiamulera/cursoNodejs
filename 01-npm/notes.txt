@@ -1,0 +1,21 @@
+JS trabalhando
+Bind dos node.js (V8) que transforma de JS para C++
+
+EventLoop do JS -> fluxo de eventos no JS
+ - delega os eventos dentro do NODE / SO
+
+
+EVENT QUEUE -> WORKER -> WORKER THREADS
+
+CICLO DE VIDA DO JAVASCRIPT
+
+ - Funções que dependem de execução externa serão executadas
+ em background
+
+ - A Forma com que seu código é escrito é diferente da ordem em que
+ é executado.
+
+ - Importante sempre manter a ordem de sua execução para evitar problemas
+
+
+ Trabalhando com Callbacks

@@ -1,0 +1,31 @@
+CICLO DE VIDAS DE PROMISES
+
+    Pending - Estado inicial, ainda não terminou ou ainda não foi rejeitado.
+
+    Fulfilled - Quando executou todas as operações com sucesso
+
+    Rejected - Quando a operação falhou
+
+
+Fluxo da PROMISES
+
+ Promise inicia Pending
+    Fulfilled -> .then(function resolvePromise()) -> return novaPromise (Pending) para devolver o valor
+    Rejected -> .then(..., error)
+
+ Promises - ASYNC/AWAIT
+    
+    Facilita a visualização do fluxo de funções
+    Não altera a performance de sua aplicação
+    Veio da galera do C#
+    Usar apenas quando necessitar tratar a resposta da chamada
+
+EventEmitter
+
+    Usado para ações continuas
+    Node.js usa para quase tudo em seu ecossistema
+    Bastante usado também nos browsers (.onClick)
+    Trabalha sob o Design Patterns Observer/PubSub
+
+
+Manipulação de Listas
